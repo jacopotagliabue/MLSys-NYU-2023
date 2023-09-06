@@ -1,6 +1,6 @@
 # Fundamentals 
 
-This file contains introductory documentation to the [Command Line](#command-line-basics) and [Python and Rye](#python-and-rye). While I encourage you to work through each section on your own computer, you should also no limit yourself to only learning what is in this document. The command line is a powerful tool, and there are many commands, tricks, and skills to learn that will make you more productive. Do not be afraid to search online and learn beyond this file!
+This file contains introductory documentation to the [Command Line](#command-line-basics) and [Python and Rye](#python-and-rye). While I encourage you to work through each section on your own computer, you should also not limit yourself to only learning what is in this document. The command line is a powerful tool, and there are many commands, tricks, and skills to learn that will make you more productive. Do not be afraid to search online and learn beyond this file!
 
 ## Command Line Basics
 
