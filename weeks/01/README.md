@@ -154,7 +154,7 @@ There are many ways to install Python and manage third party Python libraries. I
 
 ##### Mac Instructions
 1. Go [here](https://rye-up.com/guide/installation/), click the `Mac` tab, and run the command that starts with `curl`.
-2. Go down to the [Add Shims to Path](https://rye-up.com/guide/installation/#add-shims-to-path) section. If you know what type of shell you have, then follow the instructions for your shell. Otherwise, click `Unix Shells` and run that command.
+2. Go down to the [Add Shims to Path](https://rye-up.com/guide/installation/#add-shims-to-path) section. If you know what type of shell you have, then follow the instructions for your shell. Otherwise, click `ZSH` and run that command.
 
 ##### Test Driving Rye
 
