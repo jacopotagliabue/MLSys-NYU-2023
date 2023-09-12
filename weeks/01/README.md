@@ -154,22 +154,21 @@ There are many ways to install Python and manage third party Python libraries. I
 
 ##### Mac Instructions
 1. Go [here](https://rye-up.com/guide/installation/), click the `Mac` tab, and run the command that starts with `curl`.
-2. Go down to the [Add Shims to Path](https://rye-up.com/guide/installation/#add-shims-to-path) section. If you know what type of shell you have, then follow the instructions for your shell. Otherwise, click `ZSH` and run that command.
+2. Go down to the [Add Shims to Path](https://rye-up.com/guide/installation/#add-shims-to-path) section. If you know what type of shell you have, then follow the instructions for your shell. If you do not know what type of shell you have, then run `echo $SHELL` in your terminal. You should see something like `/bin/bash` if you're running `BASH` or `/bin/zsh` if you're running `ZSH`.
 
 ##### Test Driving Rye
 
 Instructions for making your own project:
 
 1. Open `PowerShell` or `Git Bash` on Windows or `Terminal` on Mac and run `rye init my-project`. This will create a new directory and python project called `my-project`.
-6. Move into the current directory by running `cd my-project`. 
-7. Run `rye pin 3.11` to ensure that you only use Python version 3.11 in this project.
-8. Run `rye sync` to download Python.
-9. Add the [cowsay](https://pypi.org/project/cowsay/) dependency by running `rye add cowsay`.
-10. Run `rye sync` to install `cowsay`.
-11. Test that everything worked by running 
+2. Move into the current directory by running `cd my-project`. 
+3. Run `rye pin 3.11` to ensure that you only use Python version 3.11 in this project.
+4. Run `rye sync` to download Python. _Note: if you run into an error that says something like `email.errors.NonASCIILocalPartDefect: local-part contains non-ASCII characters)`, then this might be because you have non-ascii characters in your email address. A quick fix for this is to initialize a new project with `rye`, but using a different build system. You can do this by going back to Step 1 in this section and running `rye init --build-system pdm my-project`._
+5. Add the [cowsay](https://pypi.org/project/cowsay/) dependency by running `rye add cowsay`.
+6. Run `rye sync` to install `cowsay`.
+7. Test that everything worked by running 
     ```commandline
     python -c "import cowsay; cowsay.cow('good job')"
     ```
     You'll know that everything worked if a cow says you did a good job.
-12. Read more about `rye` by starting at the [rye basics guide](https://rye-up.com/guide/basics/).
-
+7. Read more about `rye` by starting at the [rye basics guide](https://rye-up.com/guide/basics/).
