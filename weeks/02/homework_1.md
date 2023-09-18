@@ -41,7 +41,7 @@ $$
 In this homework problem, you will learn how to use `numpy` to fit a linear regression model. Please write a script that:
 
 1. Reads in the housing data `train.csv` dataset to a Pandas DataFrame.
-2. Creates an $\mathbf{X}$ matrix as a numpy array. For this $\mathbf{X}$ matrix, use the columns (aka features) `1stFlrSF`, `2ndFlrSF`, and `TotalBsmntSF`. In the `scientific_computing.ipynb` notebook, we combined all these columns into a single feature. For this task, we will leave them as separate features and see if that improves the model prediction.
+2. Creates an $\mathbf{X}$ matrix as a numpy array. For this $\mathbf{X}$ matrix, use the columns (aka features) `1stFlrSF`, `2ndFlrSF`, and `TotalBsmtSF`. In the `scientific_computing.ipynb` notebook, we combined all these columns into a single feature. For this task, we will leave them as separate features and see if that improves the model prediction.
 3. Creates a $\vec{y}$ vector as a `numpy` array out of the `SalePrice` column.
 4. Creates a $\vec{\beta}$ vector as a `numpy` array using Equation (1).
 5. Generates predictions $\hat{y}$ using your $\vec{\beta}$ vector.
