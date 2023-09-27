@@ -2,7 +2,7 @@
 
 ## Linear Models for Classification
 
-`requirements.txt` holds the Python dependencies for running this weeks' notebooks.
+You can run `rye sync` in this directory in order to install all necessary python packages for running both the below notebooks as well as running your homework.
 
 ## Notebooks
 
