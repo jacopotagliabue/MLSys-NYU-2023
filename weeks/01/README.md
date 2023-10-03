@@ -133,7 +133,7 @@ We will update this repo throughout the course. You can pull the latest changes 
 
 ### Installing Python
 
-There are many ways to install Python and manage third party Python libraries. If you feel very confident in your Python setup, then you may continue with your method of installing python and associated dependencies. Otherwise, in this course we will strongly recommend that you use [tye](https://rye-up.com/). Even if you already have a Python setup that you're comfortable with, installing `rye` will not affect it, so you should feel comfortable installing it. We recommend `rye` for a couple of reasons:
+There are many ways to install Python and manage third party Python libraries. If you feel very confident in your Python setup, then you may continue with your method of installing python and associated dependencies. Otherwise, in this course we will strongly recommend that you use [rye](https://rye-up.com/). Even if you already have a Python setup that you're comfortable with, installing `rye` will not affect it, so you should feel comfortable installing it. We recommend `rye` for a couple of reasons:
 
 1. It works on Mac, Windows, and Linux.
 2. It installs Python for you.
