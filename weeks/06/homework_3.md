@@ -1,9 +1,9 @@
-# Homework 2
+# Homework 3
 
 Please submit a single python file for this entire homework. Each question asks you to print out information, so your single script should print out the answer to each question. Your script should only use standard python or the libraries that are included in `pyproject.toml`. Your grader should be able to run your script from the command line like:
 
 ```commandline
-python homework_2.py
+python homework_3.py
 ```
 
 You can assume that your grader is running the script from the same folder that this document is in.
