@@ -6,7 +6,7 @@
 * `notebooks` is the folder containing a notebook showcasing Metaflow API;
 * `pyproject.toml` holds the Python dependencies required for running the scripts (use `rye sync` as usual etc.).
 
-Notes: 
+Notes:
 
 * to run `small_flow.py`, you need to use the Metaflow syntax `python small_flow.py run`.
 * to run the notebook, use rye as usual: `rye run jupyter lab`.

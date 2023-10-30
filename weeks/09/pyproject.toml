@@ -1,0 +1,26 @@
+[project]
+name = "week9"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Jacopo Tagliabue", email = "jacopo.tagliabue@nyu.edu" }
+]
+dependencies = [
+    "scikit-learn>=1, <2",
+    "matplotlib==3.4.3",
+    "setuptools>=68.2.2",
+    "comet-ml==3.35.1"
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
