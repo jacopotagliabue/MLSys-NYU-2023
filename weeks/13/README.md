@@ -2,9 +2,9 @@
 
 ## Serving predictions
 
-First, make sure to setup the weekly env with `rye sync` and go into `src`; then quickly run the usual `small_flow.py` with Metaflow, to produce the model we will be serving (the script and the datasets are repeated in this week folder for convenience, but nothing has changed from previous weeks).
+First, make sure to setup the weekly env with `rye sync` and go into `src`; then quickly run the usual `small_flow.py` with Metaflow, to produce the model we will be serving (the script and the datasets are repeated for convenience, but nothing has changed from previous weeks).
 
-Now, you can spin up the endpoint and interact with it using `python my_app.py`, and then opening the browser at the url displayed in the terminal plus the endpoint name, `predict`, for example pasting `http://127.0.0.1:5000/predict?x=10` in the browser will return a JSON with the prediction of the model for the input `x=10`. A sample response may be:
+Now, you can spin up the endpoint and interact with it using `python my_app.py`, and then opening the browser at the url displayed in the terminal plus the endpoint name, `predict`; for example, pasting `http://127.0.0.1:5000/predict?x=10` in the browser will return a JSON with the prediction of the model for the input `x=10`. A sample response may be:
 
 ```json
 {
@@ -19,7 +19,7 @@ Now, you can spin up the endpoint and interact with it using `python my_app.py`,
 }
 ```
 
-The current endpoint is very barebone - check the slides and the `project` in week 12 for suggestions on how to best structure the response, and an example of enriching the presentation layer with a web page.
+The current endpoint is very barebone - check the slides and the `project` from week 12 for suggestions on how to best structure the response, and an example of enriching the presentation layer with a web page.
 
 ## Misc. Links
 
