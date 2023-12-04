@@ -1,20 +1,14 @@
 [project]
-name = "week12"
+name = "week13"
 version = "0.1.0"
 description = "Add your description here"
 authors = [
     { name = "Jacopo Tagliabue", email = "jacopo.tagliabue@nyu.edu" }
 ]
 dependencies = [
-    "gensim==4.3.2",
     "scikit-learn>=1, <2",
-    "matplotlib==3.4.3",
     "setuptools>=68.2.2",
-    "jupyterlab>=4, <5",
-    "datasets==2.14.5",
-    "BackTranslation==0.3.1",
     "metaflow==2.10.3",
-    "sentence-transformers==2.2.2",
     "Flask==3.0.0"
 ]
 readme = "README.md"
